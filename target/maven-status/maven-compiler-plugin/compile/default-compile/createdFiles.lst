@@ -1,0 +1,16 @@
+com\engine\transformation\AvroTransformer.class
+com\engine\ingestion\FileIngestor.class
+com\engine\transformation\TransformerFactory.class
+com\engine\transformation\TransformationStrategy.class
+com\engine\throttling\ThrottlingManager.class
+com\engine\sink\RestSink.class
+com\engine\App.class
+com\engine\transformation\JsonTransformer.class
+com\engine\orchestrator\FanOutEngine.class
+com\engine\ingestion\DataRecord.class
+com\engine\sink\DataSink.class
+com\engine\sink\MessageQueueSink.class
+com\engine\sink\GrpcSink.class
+com\engine\transformation\ProtobufTransformer.class
+com\engine\transformation\XmlTransformer.class
+com\engine\sink\DatabaseSink.class

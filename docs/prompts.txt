@@ -1,0 +1,47 @@
+
+1: Read the uploaded doc, Design and explain a high-throughput Ingestion Engine architecture in Java 21 that can process 100GB files while maintaining strict memory constraints. The assistant should provide a complete implementation approach including code patterns, architectural decisions, and specific Java 21 features that enable efficient processing.
+Target file size: 100GB+
+Constraint: Strict memory limits (define heap size if known, otherwise assume standard production environments with 4-8GB heap)
+Processing must maintain high throughput while preventing memory overflow
+Java 21 features should be leveraged for efficiency (virtual threads, structured concurrency, pattern matching, sealed classes, records)
+Architecture must address: streaming vs. buffering tradeoffs, backpressure handling, error recovery, and resource cleanup
+Consider both structured (CSV, JSON, Parquet) and unstructured data formats
+Implementation should include monitoring and observability patterns
+
+Prompt 2: Generate a complete pom.xml file configured with Java 21 as the target version, VS Code development tools, and industry-standard libraries for concurrency and resilience. Concurrency libraries needed: Libraries that provide thread-safe utilities, reactive programming support, or structured concurrency patterns
+Resilience libraries needed: Circuit breakers, retry mechanisms, timeout handling, and fault tolerance patterns
+Industry-standard approach: Include testing frameworks, logging, and common utility libraries that complement concurrency and resilience work
+
+Prompt 3: The assistant should provide a clear, direct answer to whether a Dockerfile will be used for containerization in this project, then transition the discussion to focus on the Distribution Layer phase.
+
+Prompt 4: Diagnose and resolve the Maven classpath configuration issues causing the JUnit and DataRecord import errors in your IDE.
+
+
+Prompt 6: Identify and remove all citation markers from the provided code, then clearly show the correct placement of logic for processedCount and observability features. Provide the corrected code with proper syntax and explain where each piece of logic should be positioned within the code structure.
+
+Prompt 7: Identify the exact location within the FanOutEngine codebase where the '3-Retry Resilience Logic' should be integrated, and provide clear instructions on where to paste the implementation code. 
+The specific file name and class/function where the code should be inserted
+The exact line number or code context (showing surrounding code) where insertion should occur
+A brief explanation of why this location is optimal for the retry logic
+Any dependencies or prerequisites that must be in place before pasting the code
+A warning about any existing code that might conflict or need modification
+
+
+Prompt 9: Add the success/failure counters for the 5-second status update. Are you positive these are the only remaining items to reach 100%?
+
+IV. Scaling & Final Validation
+Prompt 10: Implement the missing gRPC and Message Queue sink components for the Technical Architecture. For each sink type, the assistant should:
+
+Define the sink interface/contract that aligns with existing sink patterns in the architecture
+Specify the configuration parameters required (e.g., endpoint URLs, authentication, timeouts, queue names, serialization formats)
+Document the data flow: how data enters the sink, how it is processed, and how it is transmitted/queued
+Identify error handling and retry mechanisms appropriate to each sink type
+Provide implementation considerations including performance characteristics, scalability constraints, and failure modes
+
+Prompt 11: Add the remaining transformation logic for Protobuf and Avro. Why haven't we tested any of these folders yet?
+
+Prompt 12: 
+[ERROR] Errors:
+[ERROR]   FanOutMockitoTest.testFanOutCallsAllSinks:30 ┬╗ NullPointer Cannot invoke "java.util.concurrent.Flow$Subscription.request(long)" because "this.subscription" is null
+[ERROR]   MetricsTest.testFailureCounting:16 ┬╗ NullPointer Cannot invoke "java.util.concurrent.Flow$Subscription.request(long)" because "this.subscription" is null
+D:\Zeotap\a2\high-throughput-fan-out-engine>

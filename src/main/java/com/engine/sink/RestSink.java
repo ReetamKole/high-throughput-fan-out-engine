@@ -18,4 +18,8 @@ public class RestSink implements DataSink {
             Thread.currentThread().interrupt();
         }
     }
+    @Override
+public String getServiceType() {
+    return "REST";
+}
 }

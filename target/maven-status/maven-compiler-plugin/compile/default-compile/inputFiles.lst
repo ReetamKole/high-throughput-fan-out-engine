@@ -4,9 +4,13 @@ D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\ingestion\F
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\orchestrator\FanOutEngine.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\sink\DatabaseSink.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\sink\DataSink.java
+D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\sink\GrpcSink.java
+D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\sink\MessageQueueSink.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\sink\RestSink.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\throttling\ThrottlingManager.java
+D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\AvroTransformer.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\JsonTransformer.java
+D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\ProtobufTransformer.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\TransformationStrategy.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\TransformerFactory.java
 D:\Zeotap\a2\high-throughput-fan-out-engine\src\main\java\com\engine\transformation\XmlTransformer.java
