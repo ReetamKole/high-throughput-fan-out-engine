@@ -1,0 +1,86 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "rect1", "type": "rectangle", "x": 100, "y": 100, "width": 200, "height": 300,
+      "strokeColor": "#1e1e1e", "backgroundColor": "#e3f2fd", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 101, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text1", "type": "text", "x": 110, "y": 110, "width": 180, "height": 25,
+      "text": "INGESTION LAYER", "fontSize": 20, "fontFamily": 1, "textAlign": "center", "verticalAlign": "top",
+      "baseline": 18, "strokeColor": "#0d47a1", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 102, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text2", "type": "text", "x": 115, "y": 150, "width": 170, "height": 60,
+      "text": "FileIngestor\n(Streaming 100GB)\nBackpressure: Flow API", "fontSize": 16, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 14, "strokeColor": "#000000", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 103, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "rect2", "type": "rectangle", "x": 350, "y": 100, "width": 200, "height": 300,
+      "strokeColor": "#1e1e1e", "backgroundColor": "#fff3e0", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 201, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text3", "type": "text", "x": 360, "y": 110, "width": 180, "height": 25,
+      "text": "TRANSFORM LAYER", "fontSize": 20, "fontFamily": 1, "textAlign": "center", "verticalAlign": "top",
+      "baseline": 18, "strokeColor": "#e65100", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 202, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text4", "type": "text", "x": 365, "y": 150, "width": 170, "height": 80,
+      "text": "Strategy Pattern:\n- JSON\n- XML\n- Protobuf\n- Avro", "fontSize": 16, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 14, "strokeColor": "#000000", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 203, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "rect3", "type": "rectangle", "x": 600, "y": 100, "width": 200, "height": 300,
+      "strokeColor": "#1e1e1e", "backgroundColor": "#e8f5e9", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 301, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text5", "type": "text", "x": 610, "y": 110, "width": 180, "height": 25,
+      "text": "DISTRIBUTION LAYER", "fontSize": 20, "fontFamily": 1, "textAlign": "center", "verticalAlign": "top",
+      "baseline": 18, "strokeColor": "#1b5e20", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 302, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "text6", "type": "text", "x": 615, "y": 150, "width": 170, "height": 100,
+      "text": "Virtual Threads\nFan-Out Sinks:\n- REST (Throttled)\n- gRPC\n- MQ\n- DB", "fontSize": 16, "fontFamily": 1, "textAlign": "left", "verticalAlign": "top",
+      "baseline": 14, "strokeColor": "#000000", "backgroundColor": "transparent", "fillStyle": "hachure",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "roundness": null,
+      "seed": 303, "version": 1, "versionNonce": 0, "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "arrow1", "type": "arrow", "x": 300, "y": 250, "width": 50, "height": 0,
+      "strokeColor": "#000000", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 401, "version": 1, "versionNonce": 0,
+      "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [50, 0]], "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "arrow2", "type": "arrow", "x": 550, "y": 250, "width": 50, "height": 0,
+      "strokeColor": "#000000", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "roundness": null, "seed": 402, "version": 1, "versionNonce": 0,
+      "isDeleted": false, "boundElements": null, "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [50, 0]], "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}

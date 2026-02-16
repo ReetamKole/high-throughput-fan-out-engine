@@ -1,0 +1,18 @@
+engine:
+  file-source: "data/input.jsonl"
+  status-interval: 5s # Observability requirement
+  
+sinks:
+  rest:
+    endpoint: "http://mock-api.com/v1/data"
+    rate-limit: 50 # Required: REST 50 req/sec
+    retry-max: 3   # Required: 3 retries
+  database:
+    table: "wide_column_records"
+    rate-limit: 1000 # Required: DB 1000 req/sec
+  grpc:
+    host: "localhost:9090"
+    rate-limit: 200
+  message-queue:
+    topic: "data-fanout-topic"
+    rate-limit: 500
