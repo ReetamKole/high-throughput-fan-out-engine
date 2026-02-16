@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  fanout-engine:
+    build: .
+    container_name: fanout-engine
+    memory_limit: 512mb
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+    restart: on-failure

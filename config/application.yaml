@@ -1,0 +1,14 @@
+source:
+  file-path: "data/input.jsonl"
+  batch-size: 100
+
+sinks:
+  rest:
+    [cite_start]rate-limit: 50 # req/sec [cite: 27]
+    [cite_start]retry-max: 3 [cite: 31]
+  grpc:
+    rate-limit: 200
+  message-queue:
+    rate-limit: 500
+  database:
+    rate-limit: 1000
